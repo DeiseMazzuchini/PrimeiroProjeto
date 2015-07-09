@@ -1,0 +1,28 @@
+public class TipoGasto {
+	
+	private int _codigo;
+	public int Codigo { 
+		get { return _codigo; }
+		set { _codigo = value; }
+	}
+	
+	--enum
+	private int _categoria;
+	public int Categoria { 
+		get { return _categoria; }
+		set { _categoria = value; }
+	}
+	
+	private string _nome;
+	public string Nome { 
+		get { return _nome; } 
+		set { _nome = value; } 
+	}
+
+	private bool _fixo;
+	public bool Fixo 
+	{ 
+		get { return _fixo; }; 
+		set { _fixo = value; }; 
+	}
+}
