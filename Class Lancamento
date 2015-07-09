@@ -1,0 +1,42 @@
+public class Lancamento {
+	
+	private int _codigo;
+	public int Codigo { 
+		get { return _codigo; }
+		set { _codigo = value; }
+	}
+	
+	private int _codigoUsuario;
+	public int CodigoUsuario { 
+		get { return _codigoUsuario; }
+		set { _codigoUsuario = value; }
+	}
+	
+	--enum
+	private string _operacao;
+	public string Operacao { 
+		get { return _operacao; } 
+		set { _operacao = value; } 
+	}
+
+	private Datetime _dataLancamento;
+	public Datetime DataLancamento 
+	{ 
+		get { return _dataLancamento; }; 
+		set { _dataLancamento = value; }; 
+	}
+
+	private int _tpGasto;
+	public int TpGasto
+	{
+		get { return _tpGasto; }; 
+		set { _tpGasto = value; }; 
+	}
+	
+	private float _valor
+	public float Valor 
+	{ 
+		get { return _valor; }; 
+		set { _valor = value; }; 
+	}
+}
