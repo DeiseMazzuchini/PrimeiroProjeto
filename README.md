@@ -1,5 +1,6 @@
 # PrimeiroProjeto
 Teste de utilização de repositório com criação de projeto :)
+
 Objetivo: Desenvolvimento de um projeto de software aberto que possibilita ao usuário gerenciar e analisar seus gastos efetuando lançamentos de entradas e saídas de dinheiro, separados por categoria, como por exemplo farmácia, mercado, vestuário, restaurante, lazer, entre outros.
 
 Tecnologias: linguagem de programação .NET, desenvolvida com Visual Studio e banco de dados SQL Server Express.
